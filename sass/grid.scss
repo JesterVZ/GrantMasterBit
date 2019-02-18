@@ -1,0 +1,127 @@
+$gray: rgb(182, 182, 182);
+$shadow: rgba(77, 77, 77, 0.5);
+$radiobutton_border: #EFD238;
+$radiobutton_border_changed: rgba(239, 210, 56, 0.5);
+$income_number: #0288D1;
+$bgc_tr: rgb(255, 238, 213);
+body{
+    font-family: Roboto;
+    margin: 0;
+    
+}
+.header-block{
+    box-shadow: 0 0 10px $shadow;
+    -webkit-box-shadow: 0 8px 6px -6px $shadow;
+    -moz-box-shadow: 0 8px 6px -6px $shadow;
+    height: 75px;
+}
+/*logo*/
+.logo{
+    margin-left: 30px;
+}
+.block-logo-img, .logo{
+    display: inline-block;
+}
+
+.logo-text{
+    display: inline-block;
+    text-align: left;
+}
+.logo-title{
+    font-size: 20px;
+}
+.logo-descr{
+    font-size: 10px;
+    font-weight: normal;
+    color: $gray;
+}
+/*profile*/
+.profile{
+    display: inline-block;
+    margin-top: 10px;
+}
+.profile-image{
+    margin-right: 10px;
+}
+.profile-descr{
+    color: $gray;
+}
+.profile-image, .profile-text{
+    display: inline-block;
+    vertical-align: middle;
+}
+.profile-and-location{
+    float: right;
+    margin-right: 30px;
+}
+/*location*/
+.location{
+    margin-left: 20px;
+}
+.location-title{
+    color: $gray;
+}
+.location-title, .location-image, .location{
+    display: inline-block;
+}
+/*input*/
+input[type=radio] {
+    display:none; 
+    margin:10px;
+    cursor: pointer;
+}
+input[type=radio] + label {
+    display: inline-block;
+    margin: -3.5px;
+    padding: 8px 12px;
+    background-color: none;
+    border: 2px solid $radiobutton_border;
+    border-radius: 3px;
+}
+input[type=radio]:checked + label { 
+    background-image: none;
+    background-color: $radiobutton_border_changed;
+}
+.block-check{
+    margin: 20px;
+}
+/*client*/
+.client-day{
+    background-color: rgb(233, 233, 233);
+}
+.prosess{
+    border: none;
+    border-radius: 4px;
+    width: 117px;
+    height: 32px;
+    background-color: $radiobutton_border;
+    font-size: 14px;
+    cursor: pointer;
+    outline: none;
+}
+.client-day-th{
+    font-weight: normal;
+}
+.client-day-time{
+    font-weight: normal;
+    color: #000;
+    opacity: 0.5;
+}
+.client-day-incoming-number{
+    color: $income_number
+}
+.client-day-type{
+    font-weight: bold;
+}
+.client-day-tel{
+    color: $income_number;
+}
+tr:hover{
+    background-color: $bgc_tr;
+}
+.weight{
+    display: none;
+}
+.work{
+    display: none;
+}

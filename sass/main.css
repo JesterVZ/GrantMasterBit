@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  font-family: Roboto;
+}
+
+input {
+  border-color: #a3a3a3;
+  border-style: none none solid;
+  width: 220px;
+  outline: none;
+  padding-left: 5px;
+}
+
+button {
+  outline: none;
+  cursor: pointer;
+}
+
+.login {
+  width: 100%;
+  text-align: center;
+}
+
+#title_1 {
+  font-size: 22px;
+  font-weight: normal;
+  margin-bottom: -10px;
+}
+
+#title_2 {
+  font-size: 12px;
+  font-weight: normal;
+  color: #a3a3a3;
+}
+
+.block-login {
+  margin-top: 200px;
+}
+
+.button-login {
+  border-radius: 2px;
+  background-color: #e0d100;
+  border: none;
+  height: 42px;
+  width: 220px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.block-input {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+/*# sourceMappingURL=main.css.map */
